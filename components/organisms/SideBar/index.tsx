@@ -8,13 +8,13 @@ export default function SideBar() {
       <div className="content pt-50 pb-30 ps-30">
         <Profile />
         <div className="menus">
-          <MenuItem title="Overview" />
-          <MenuItem title="Transactions" />
-          <MenuItem title="Messages" />
-          <MenuItem title="Card" />
-          <MenuItem title="Rewards" />
-          <MenuItem title="Settings" />
-          <MenuItem title="Log Out" />
+          <MenuItem title="Overview" icon="icon-menu-overview" active />
+          <MenuItem title="Transactions" icon="icon-menu-transactions" />
+          <MenuItem title="Messages" icon="icon-menu-messages" />
+          <MenuItem title="Card" icon="icon-menu-card" />
+          <MenuItem title="Rewards" icon="icon-menu-rewards" />
+          <MenuItem title="Settings" icon="icon-menu-settings" />
+          <MenuItem title="Log Out" icon="icon-menu-logout" />
         </div>
         <Footer />
       </div>
